@@ -1,0 +1,92 @@
+.agent-menu-container {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu button.active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .menu button:hover:not(.active) {
+    background-color: #d6d6d6;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  .submit-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #a5d6a7;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  .response {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .loading-indicator {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .placeholder {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+  }
+  
