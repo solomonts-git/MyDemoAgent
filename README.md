@@ -23,7 +23,7 @@ This guide provides step-by-step instructions to integrate an AI agent with web 
    - Navigate to the server subdirectory within the `myAgent` directory.
    - Install the necessary dependencies by running:
      ```bash
-     pip install fastapi uvicorn phidata openai groq YFinanceTools duckduckgo-search
+     pip install fastapi uvicorn phidata openai groq yfinance duckduckgo-search
      ```
    - Create your FastAPI server file (e.g., `main.py`) and start the server:
      ```bash
@@ -43,6 +43,9 @@ This guide provides step-by-step instructions to integrate an AI agent with web 
    - Run the following command to create a React application:
      ```bash
      npx create-react-app .
+     ```
+      ```bash
+     npm i react-markdown
      ```
    - Start the React application:
      ```bash
