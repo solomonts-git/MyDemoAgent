@@ -44,8 +44,13 @@ This guide provides step-by-step instructions to integrate an AI agent with web 
      ```bash
      npx create-react-app .
      ```
+   - Run react down markdown:
       ```bash
      npm i react-markdown
+     ```
+   - Run axios for api access:
+      ```bash
+     npm i axios
      ```
    - Start the React application:
      ```bash
